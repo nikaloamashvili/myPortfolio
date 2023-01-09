@@ -1,3 +1,4 @@
+import { nanoid } from "nanoid";
 import React from "react";
 import ProjectCarousel from "./ProjectCarousel";
 
@@ -6,12 +7,6 @@ class ProjectModal extends React.Component {
 
 
     render() {
-
-        
-     console.log("its me");
-     console.log(this.props.title);
-
-
         return (
           
 
@@ -26,7 +21,7 @@ class ProjectModal extends React.Component {
                         </div>
                         <div className="modal-body">
                             <div className="carousel-container">
-                                <ProjectCarousel images={this.props.images} name={this.props.title} />
+                                <ProjectCarousel images={this.props.images} name={this.props.title} key={nanoid()} />
                             </div>
                             <p id= "modal-paragraph">{this.props.paragraph}</p>
                         </div>

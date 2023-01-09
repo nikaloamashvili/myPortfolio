@@ -22,6 +22,8 @@ import SearchIn_img2 from "./project-imgs/SearchIn/img3s.png"
 import SearchIn_img3 from "./project-imgs/SearchIn/img4s.png"
 import SearchIn_img4 from "./project-imgs/SearchIn/img6s.png"
 import Image from "next/image";
+import { nanoid } from 'nanoid'
+
 
 let paragraphContent =
 {
@@ -136,8 +138,7 @@ class ProjectsGrid extends React.Component {
 
 
     render() {
-        console.log("its me2");
-        console.log(this.props.vis);
+
         return (
             <>
                 <div className="grid-container">
@@ -151,7 +152,6 @@ class ProjectsGrid extends React.Component {
                                     tech={element.tech}
                                     link={element.links[0]}
                                     handleButtonClick= {()=>{
-                                        console.log(this.props.vis);
                                         this.props.fun();
                                         this.replaceModalItem(index)}}
                                 />
@@ -162,6 +162,7 @@ class ProjectsGrid extends React.Component {
                 </div>
 
                 <ProjectModal
+                key={nanoid()}
                     title={projectsElements[this.state.requiredItem].name}
                     paragraph={projectsElements[this.state.requiredItem].paragraph}
                     pictures={projectsElements[this.state.requiredItem].pictures}

@@ -7,7 +7,6 @@ export default function ContactMe(){
     function addClass() {
         document.body.classList.add("sent");
       }
-      // React.useEffect(()=>{const [sub,setSub]=React.useState(false);},[]);
       
       const [sub,setSub]=React.useState(false);
       const form = useRef();

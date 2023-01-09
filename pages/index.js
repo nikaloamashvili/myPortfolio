@@ -21,14 +21,12 @@ export default function Home() {
         <link rel="icon" href="/Logo2.jpeg" />
       </Head>
       <main className={styles.main}>
-
         <Navbar/>
         <Header/>
         <AboutMe/>
         <Skills/>
         <Projects/>
         <ContactMe/>
-         
       </main>
     </>
   )

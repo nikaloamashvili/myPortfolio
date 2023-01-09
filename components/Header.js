@@ -14,9 +14,7 @@ import myImage from "./components-imgs/nika.png"
 
 export default function Header(){
 
-   function gg(){
-    console.log("dfds")
-   }
+
 
     return (
         <div className="header">
@@ -27,7 +25,13 @@ export default function Header(){
       /></div> 
           
                 <div className="header-image-div">
-          <Image src={myImage} layout="fill" objectFit="cover" className="header-image"/>
+          <Image src={myImage} 
+                alt=""
+                fill
+                sizes="(max-width: 800px) 100vw,
+                        (max-width: 1200px) 50vw,
+                        33vw"
+           className="header-image"/>
         </div>
 
 
@@ -52,12 +56,8 @@ export default function Header(){
         <p className="header-p">
         Got Work For Me?
         </p>
-        {/* <div className="dheader-contact">
-        <a href="#contact" className="header-contact">
-                    <FontAwesomeIcon icon={faEnvelope} style={{ color: "white",width:"30px"  } } /> Contact Me
-        </a>
-        </div> */}
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" className="svg">
+
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" className="svg" width="3x">
         <defs>
             <filter id="gooey">
                 <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />

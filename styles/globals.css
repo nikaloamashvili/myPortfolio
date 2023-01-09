@@ -5,15 +5,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 :root {
     --primary-white: #fff;
-    --primary-green: #56fd3c;
-    --secondary-green: #06d6a0;
-    --secondary-hover-green:#0ac593;
+    --primary-green: #53f23b;
+    --secondary-green: #06c693;
+    --secondary-hover-green:#10bd8f;
     --background-green: #5db6ab;
-    --primary-dark: rgba(255, 255, 255, 0);
+    --primary-dark: #181616;
     --primary-red: #ef4035;
     --primary-hover-red: #f33501;
-    --primary-blue:#0093E9;
-    --faded-blue: rgb(167, 203, 221);
+    --primary-blue:#028bdb;
+    --faded-blue: rgb(156, 191, 208);
     --secondary-blue:rgb(201, 251, 255);
     --header-height: 93vh;
     --card-radius: 25px;
@@ -39,14 +39,14 @@ body {
   width: 100%;
   padding: 0.5rem 0rem;
   /* padding-bottom: 10px; */
-  background-color: #fff;
-  color: black;
+  background-color: var(--primary-white);
+  color: var(--primary-dark);
   box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
 }
 
 .brand-name {
   text-decoration: none;
-  color: black;
+  color: var(--primary-dark);
   font-size: 1.3rem;
   margin-left: 1rem;
 }
