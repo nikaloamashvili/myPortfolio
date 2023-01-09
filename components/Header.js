@@ -5,7 +5,7 @@ import SocialMedia from "./SocialMedia";
 import Particle from "./Particle";
 // import TypeWriterEffect from 'react-typewriter-effect';
 import Typewriter from 'typewriter-effect';
-
+import myImage from "./components-imgs/nika.png"
 
 // const skills = ["React", "JavaScript","Kotlin","Java", "NodeJS", "HTML", "CSS", "C#", "C++", "Python", "Git"];
 
@@ -27,7 +27,7 @@ export default function Header(){
       /></div> 
           
                 <div className="header-image-div">
-          <Image src="/../public/nika.png" layout="fill" objectFit="cover" className="header-image"/>
+          <Image src={myImage} layout="fill" objectFit="cover" className="header-image"/>
         </div>
 
 
