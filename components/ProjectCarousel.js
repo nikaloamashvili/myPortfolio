@@ -1,35 +1,32 @@
-import React from "react";
-import Carousel from "react-elastic-carousel";
+import React, { Component } from 'react';
 import Image from "next/image";
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
-class ProjectCarousel extends React.Component {
-    componentDidUpdate(prevProps) {
-        if (this.props.name !== prevProps.name) {
-            this.carousel.goTo(0)
-        }
-    }
+class ProjectCarousel extends Component {
+
 
     render() {
         const images = this.props.images;
-        return (
-            typeof images !== "undefined" ?
 
-                <div>
-                    <Carousel itemsToShow={1} ref={ref => (this.carousel = ref)}>
-                        {
-                            images.map((image, index) => {
-                                return <Image key={index}
+        return (
+            <Carousel>
+
+                {
+                  images.map((image, index) => {
+                                return (
+                                <div>
+                                <Image key={index}
                                     className="card-img-top1 carousel-image"
                                     src={image}
-                                    alt="X" />
+                                    alt="X" /></div>)
 
-                            })
-                        }
-
-                    </Carousel>
-                </div> : ""
+                            })}
+                        
+            </Carousel>
         );
     }
 }
 
 export default ProjectCarousel;
+

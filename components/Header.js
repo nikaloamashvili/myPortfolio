@@ -1,10 +1,13 @@
 import React from "react"
-import Typed from "react-typed";
+// import Typed from "react-typed";
 import Image from "next/image";
 import SocialMedia from "./SocialMedia";
 import Particle from "./Particle";
+// import TypeWriterEffect from 'react-typewriter-effect';
+import Typewriter from 'typewriter-effect';
 
-const skills = ["React", "JavaScript","Kotlin","Java", "NodeJS", "HTML", "CSS", "C#", "C++", "Python", "Git"];
+
+// const skills = ["React", "JavaScript","Kotlin","Java", "NodeJS", "HTML", "CSS", "C#", "C++", "Python", "Git"];
 
 
 
@@ -31,16 +34,21 @@ export default function Header(){
         <h2 className="header-h2">
           Nika Lomashvili
         </h2>
-
+        <div className="hh3">
         <h3 className="header-h3">
-                    Software Developer  <Typed
-                        className="typed-text"
-                        strings={skills}
-                        typeSpeed={150}
-                        backSpeed={90}
-                        loop
-                    /> ...
-                </h3>
+                    Software Developer    </h3>
+                    <h3 >
+                    <Typewriter 
+  options={{
+    strings: ["React", "JavaScript","Kotlin","Java", "NodeJS", "HTML", "CSS", "C#", "C++", "Python", "Git"],
+    autoStart: true,
+    loop: true,
+  }}
+/></h3>
+<h3 className="header-h3">
+...    </h3>
+                    
+               </div>
         <p className="header-p">
         Got Work For Me?
         </p>
