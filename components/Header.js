@@ -5,7 +5,7 @@ import SocialMedia from "./SocialMedia";
 import Particle from "./Particle";
 // import TypeWriterEffect from 'react-typewriter-effect';
 import Typewriter from 'typewriter-effect';
-import myImage from "./components-imgs/nika.png"
+import myImage from "./components-imgs/nika3.png"
 
 // const skills = ["React", "JavaScript","Kotlin","Java", "NodeJS", "HTML", "CSS", "C#", "C++", "Python", "Git"];
 
@@ -25,13 +25,15 @@ export default function Header(){
       /></div> 
           
                 <div className="header-image-div">
-          <Image src={myImage} 
+          {/* <Image src={myImage} 
                 alt=""
                 fill
                 sizes="(max-width: 800px) 100vw,
                         (max-width: 1200px) 50vw,
                         33vw"
-           className="header-image"/>
+           className="header-image"/> */}
+                     <Image src={myImage} layout="fill" objectFit="cover" className="header-image"/>
+
         </div>
 
 
@@ -41,7 +43,7 @@ export default function Header(){
         <div className="hh3">
         <h3 className="header-h3">
                     Software Developer    </h3>
-                    <h3 >
+                    <h3 className="header-h3">
                     <Typewriter 
   options={{
     strings: ["React", "JavaScript","Kotlin","Java", "NodeJS", "HTML", "CSS", "C#", "C++", "Python", "Git"],
@@ -53,9 +55,9 @@ export default function Header(){
 ...    </h3>
                     
                </div>
-        <p className="header-p">
+        {/* <p className="header-p">
         Got Work For Me?
-        </p>
+        </p> */}
 
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" className="svg" width="3x">
         <defs>
@@ -70,7 +72,7 @@ export default function Header(){
     {/* <button id="gooey-button" onClick={gg}> */}
     <div className="cba">
     <a  id="gooey-button" href="#contact" className="cb">
-                   Contact Me
+                  <span className="span1"> Got Work For Me?</span>
         <span className="bubbles">
             <span className="bubble"></span>
             <span className="bubble"></span>
@@ -84,7 +86,7 @@ export default function Header(){
             <span className="bubble"></span>
         </span>
     {/* </button> */}
-    </a></div>
+    </a> </div>
 
         <SocialMedia/>
         
