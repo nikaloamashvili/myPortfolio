@@ -174,13 +174,14 @@ body {
 
 @media screen and (max-width: 550px) {
   .header{
-    padding-top: 40px;
+    padding-top: 15vh;
     z-index:1; /*Add this*/
     text-align: center;
     background-image: url("../public/back1.png");
     width: 100%;
-    height: 100vh;
+    height: 98vh;
 }
+
 }
 
 .particles-canvas {
@@ -209,41 +210,8 @@ body {
     white-space: nowrap;
 }
 
-/* @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-    .header-image-div{
-        display: none;
-    }
-} */
-
-/* @media only screen and (min-width: 428px) and (orientation: landscape)
-{    .header-image-div{
-  display: none;
-}
-
-
-
-.header{
-  padding-top: 3px;
-  z-index:1; 
-  text-align: center;
-  background-image: url("../public/back1.png");
-  width: 100%;
-  height: 100vh;
-}
-} */
-
-/* @media only screen and (min-width: 926px) and (orientation: landscape) {    
-  .header-image-div{
-  display: none;
-}} */
-
-
 @media only screen 
-and (max-width: 822px)
+and (max-width: 950px)
 and (orientation: landscape){
   .header-image-div{
     display: none;
@@ -251,8 +219,8 @@ and (orientation: landscape){
 
   .header-h2{
     z-index: 2;
-    font-size: 32px;
-    margin-bottom: 10px;
+    font-size: 45px;
+    margin-bottom: 5px;
     position: relative;
     color: var(--primary-green);
 }
@@ -260,7 +228,7 @@ and (orientation: landscape){
 .header-h3{
     z-index: 2;
      position: relative;
-     font-size: 15px;
+     font-size: 25px;
     clear: both;
     display: inline-block;
     overflow: hidden;
@@ -1104,7 +1072,7 @@ and (orientation: landscape){
  resize: none;
 }
 .cinput {
- width: 50%;
+ width: 60%;
  margin-bottom: 1rem;
 }
 .cinput[type=text]:invalid, .cinput [type=email]:invalid {
@@ -1125,7 +1093,7 @@ and (orientation: landscape){
   }
 .cinput[type=text]:focus,
 input[type=email]:focus,
-textarea:focus {
+.ctextarea:focus {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='24'><rect fill='rgba(78, 94, 114, 0.3)' x='0' y='23' width='10' height='1'/></svg>");
   outline: none;
 }
@@ -1228,7 +1196,7 @@ textarea:focus {
     -webkit-animation: closeLetter 0.66s forwards ease-in;
             animation: closeLetter 0.66s forwards ease-in;
   }
-.sent .side:nth-of-type(1) h1, .sent .side:nth-of-type(1) textarea {
+.sent .side:nth-of-type(1) h1, .sent .side:nth-of-type(1) .ctextarea {
     -webkit-animation: fadeOutText 0.66s forwards linear;
             animation: fadeOutText 0.66s forwards linear;
   }

@@ -36,7 +36,7 @@ export default function ContactMe(){
     <div className="side">
       <h1 className="ch1">Contact me</h1>
       <p className="cp">
-        <textarea placeholder="Your message" className="Ctextarea" name="message"></textarea>
+        <textarea placeholder="Your message" className="ctextarea" name="message"></textarea>
       </p>
     </div>
     <div className="side">
