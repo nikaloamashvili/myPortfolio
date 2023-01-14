@@ -54,10 +54,7 @@ export default function ContactMe(){
   <div className="envelope front"></div>
   <div className="envelope back"></div>
 </div>
-<small className="small"> .This website was made by me using React, CSS3 with multiple React libraries and toolkits, such as: Bootstrap, vertical timeline etc. You can check out the code...
-                    <a href="https://github.com/nikaloamashvili" target="_blank" rel="noreferrer nofollow" >here</a>.
-                     Icons were used on this website and on my cv, license
-                    <a href="https://fontawesome.com/license/free" target="_blank" rel="noreferrer nofollow">here</a>.</small>
+
 <p className="result-message centered">Thank you for your message</p></form>
 
     )

@@ -12,6 +12,8 @@ import ContactMe from '../components/ContactMe'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  console.log(
+"This website was made by me using React, CSS3 with multiple React libraries and toolkits, such as: Bootstrap, vertical timeline etc. You can check out the code in 'https://github.com/nikaloamashvili', Icons were used on this website and on my cv, license 'https://fontawesome.com/license/free'")
   return (
     <>
       <Head>
