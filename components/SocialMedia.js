@@ -8,7 +8,7 @@ import {
 
 export default function SocialMedia(){
     return (
-      <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+      <div className="SocialMedia">
           
       <a href="https://github.com/nikaloamashvili" target="_blank" rel="noreferrer nofollow" className="btn-social-media">
     <AiFillGithub color="white"  size="25px"/>

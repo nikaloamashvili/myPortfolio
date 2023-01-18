@@ -171,6 +171,12 @@ body {
   z-index: 2;
 }
 
+.SocialMedia{
+  z-index: 2;
+  position: relative;
+
+}
+
 
 @media screen and (max-width: 550px) {
   .header{
