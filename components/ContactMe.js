@@ -1,8 +1,10 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Confetti from 'react-confetti'
+import { useWindowSize } from 'react-use'
 
 export default function ContactMe(){
+	const { width, height } = useWindowSize()
 
     function addClass() {
         document.body.classList.add("sent");
@@ -24,14 +26,16 @@ export default function ContactMe(){
       };
       
     return (
+      <>
+      {sub &&  <div  className="Confetti"><Confetti 
+              width={2000}
+              height={500}
+              /></div>}
        <form className="contact-me-body" id='contact' ref={form}>
 
         <small className="small">Enter message (optional) and click button "Send"</small>
 <div className="wrapper centered">
-{sub &&  <div  className="Confetti"><Confetti 
-              width={1500}
-              height={500}
-              /></div>}
+
   <article className="letter">
     <div className="side">
       <h1 className="ch1">Contact me</h1>
@@ -55,7 +59,7 @@ export default function ContactMe(){
   <div className="envelope back"></div>
 </div>
 
-<p className="result-message centered">Thank you for your message</p></form>
+<p className="result-message centered">Thank you for your message</p></form></>
 
     )
 };

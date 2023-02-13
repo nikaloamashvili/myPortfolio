@@ -187,7 +187,6 @@ body {
     width: 100%;
     height: 98vh;
 }
-
 }
 
 .particles-canvas {
@@ -1214,6 +1213,7 @@ input[type=email]:focus,
             animation: fadeInEnvelope 0.5s 1.33s forwards ease-out;
   }
 .sent .result-message {
+     padding-top: 10px;
     opacity: 1;
     transform: translateY(12rem);
   }
