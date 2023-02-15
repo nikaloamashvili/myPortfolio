@@ -35,7 +35,7 @@ let projectsElements = [
         name: "ShearchIn",
         coverImg: SearchIn_cover,
         pictures: [SearchIn_img1, SearchIn_img2, SearchIn_img3,SearchIn_img4],
-        tech: ["Java", "JavaScript", "HTML5", "CSS"],
+        tech: ["Node.js", "JavaScript", "HTML5", "CSS","React","Next.js","MongoDB","netlify serverless functions"],
         summary:"SearchIn is A home page that displays all the user's search engines in one place.",
         paragraph: "SearchIn is React web app that allows users make one home page with all their search engines, the project was deploy on netlify.",
         links: ["https://searchin.netlify.app/"], // it's not a open source project
@@ -54,8 +54,7 @@ let projectsElements = [
         name: "Chat App with Steganography",
         coverImg: ChatApp_cover,
         pictures: [ChatApp1, ChatApp2,ChatApp3,ChatApp4,ChatApp5],
-        // pictures: [ChatApp1],
-        tech: ["Java", "Python", "Flask","AWS","Firebase"],
+        tech: ["Java", "Python", "Flask","Azure","Firebase"],
         summary:"Android messaging app wite Steganography feature",
         paragraph: "Android messaging app that allow's users to send and decode hidden messages in the various format files. Built using JAVA, Python, Flask and AWS.",
         links: ["https://github.com/nikaloamashvili/Chat-App-with-Steganography"],
