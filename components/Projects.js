@@ -35,7 +35,7 @@ let projectsElements = [
         name: "ShearchIn",
         coverImg: SearchIn_cover,
         pictures: [SearchIn_img1, SearchIn_img2, SearchIn_img3,SearchIn_img4],
-        tech: ["Node.js", "JavaScript", "HTML5", "CSS","React","Next.js","MongoDB","netlify serverless functions"],
+        tech: ["Node.js", "JavaScript","React","Next.js","MongoDB","netlify serverless functions"],
         summary:"SearchIn is A home page that displays all the user's search engines in one place.",
         paragraph: "SearchIn is React web app that allows users make one home page with all their search engines, the project was deploy on netlify.",
         links: ["https://searchin.netlify.app/"], // it's not a open source project
