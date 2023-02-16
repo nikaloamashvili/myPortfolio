@@ -26,7 +26,7 @@ export default function Home() {
 <meta property="og:url" content="https://metatags.io/"/>
 <meta property="og:title" content="Nika's portfolio"/>
 <meta property="og:description" content="Personal Portfolio Website created using ReactJS"/>
-<meta property="og:image" content="https://ibb.co/mGj6V18"/>
+<meta name="image" property="og:image" content="https://ibb.co/mGj6V18"></meta>
 
 <meta property="twitter:card" content="summary_large_image"/>
 <meta property="twitter:url" content="https://metatags.io/"/>
