@@ -18,18 +18,21 @@ export default function Home() {
     <>
       <Head>
         <title>Nika Lomashvili</title>
-<meta property="og:title" content="fdfs"/>
-<meta property="og:type" content="portfolio" />
-<meta property="og:image" content="https://nikalomashvili.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnika3.63655bcd.png&w=1920&q=75"/>
-<meta property="og:url" content="https://nikalomashvili.netlify.app"/>
-<meta name="twitter:card" content="summary_large_image"/>
-
-<meta property="og:description" content="Offering tour packages for individuals or groups."/>
-<meta property="og:site_name" content="European Travel, Inc."/>
-<meta name="twitter:image:alt" content="Alt text for image"></meta>
-        
- 
         <link rel="icon" href="/Logo2.jpeg" />
+
+<meta name="title" content="Nika's portfolio"/>
+<meta name="description" content="Personal Portfolio Website created using ReactJS"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://metatags.io/"/>
+<meta property="og:title" content="Nika's portfolio"/>
+<meta property="og:description" content="Personal Portfolio Website created using ReactJS"/>
+<meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"/>
+
+<meta property="twitter:card" content="summary_large_image"/>
+<meta property="twitter:url" content="https://metatags.io/"/>
+<meta property="twitter:title" content="Nika's portfolio"/>
+<meta property="twitter:description" content="Personal Portfolio Website created using ReactJS"/>
+<meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"></meta>
       </Head>
       <main className={styles.main}>
         <Navbar/>
