@@ -19,24 +19,9 @@ export default function Home() {
       <Head>
         <title>Nika Lomashvili</title>
         <link rel="icon" href="/Logo2.jpeg" />
-
-{/* <meta name="title" content="Nika's portfolio"/>
-<meta name="description" content="Personal Portfolio Website created using ReactJS"/>
-<meta property="og:type" content="website"/>
-<meta property="og:url" content="https://metatags.io/"/>
-<meta property="og:title" content="Nika's portfolio"/>
-<meta property="og:description" content="Personal Portfolio Website created using ReactJS"/>
-<meta name="image" property="og:image" content="https://ibb.co/mGj6V18"></meta>
-
-<meta property="twitter:card" content="summary_large_image"/>
-<meta property="twitter:url" content="https://metatags.io/"/>
-<meta property="twitter:title" content="Nika's portfolio"/>
-<meta property="twitter:description" content="Personal Portfolio Website created using ReactJS"/>
-<meta property="twitter:image" content="https://ibb.co/mGj6V18"></meta> */}
-
-<meta property='og:title' content='Title of the kkk'/>
+<meta property='og:title' content="Nika's Portfolio"/>
 <meta property='og:image' content='//i.ibb.co/nbGzNZC/nika3-removebg-preview.jpg'/>
-<meta property='og:description' content='Description that will show in the kkkkkpreview'/>
+<meta property='og:description' content='Personal Portfolio Website created using ReactJS'/>
 <meta property='og:url' content='//metatags.io/'/>
       </Head>
       <main className={styles.main}>
