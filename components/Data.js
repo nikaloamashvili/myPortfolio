@@ -77,8 +77,19 @@ let paragraphContent =
 };
 
 let timelineElements = [
+  {
+    id: 1,
+    title: "NGsoft",
+    location: "Petah Tikva, Israel",
+    description:
+      "Mobile app developer",
+    buttonText: "",
+    ref: "",
+    date: "2023 - present",
+    icon: "work",
+  },
     {
-      id: 1,
+      id: 2,
       title: "Holon Institute of Technology",
       location: "Holon, Israel",
       description:
@@ -89,7 +100,7 @@ let timelineElements = [
       icon: "school",
     },
     {
-      id: 2,
+      id: 3,
       title: "Israeli Air Force: Head of satellite communication stations",
       location: "Israel",
       description:
@@ -100,7 +111,7 @@ let timelineElements = [
       icon: "work",
     },
     {
-        id: 3,
+        id: 4,
         title: "Israeli Air Force: Satcom Technician",
         location: "Israel",
         description:
@@ -111,7 +122,7 @@ let timelineElements = [
         icon: "work",
       },
     {
-      id: 4,
+      id: 5,
       title: "Ort Singalowski College",
       location: "Tel Aviv, Israel",
       description:
